@@ -29,7 +29,7 @@ ENV BITNAMI_APP_NAME="redmine" \
     SMTP_TLS="true" \
     SMTP_USER=""
 
-EXPOSE 8000 2222
+EXPOSE 8080
 
 ENTRYPOINT [ "/app-entrypoint.sh" ]
 CMD [ "/run.sh" ]
